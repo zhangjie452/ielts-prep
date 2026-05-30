@@ -1,8 +1,8 @@
 {
   "rewrites": [
-    { "source": "/((?!assets|favicon|icons|landing).*)", "destination": "/index.html" }
+    { "source": "/app/(.*)", "destination": "/index.html" }
   ],
   "redirects": [
-    { "source": "/", "destination": "/landing.html", "permanent": false }
+    { "source": "/app", "destination": "/", "permanent": false }
   ]
 }
