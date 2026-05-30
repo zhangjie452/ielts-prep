@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>IELTS 7+ 备考平台</title>
+<meta name="description" content="全面的雅思(IELTS)备考学习平台：听力、阅读、写作、口语、词汇语法一站全包，目标 Band 7.0+。包含模拟真题、评分标准、策略技巧、错题本和进度追踪。" />
+<meta property="og:title" content="IELTS 7+ 备考平台" />
+<meta property="og:description" content="听说读写词汇一站全包，目标 Band 7.0+" />
+<meta property="og:type" content="website" />
+<style>
+  body { margin:0; background:#f8fafc; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif; display:flex; align-items:center; justify-content:center; min-height:100vh; }
+  .hero { text-align:center; padding:40px 24px; max-width:640px; }
+  h1 { font-size:2.4rem; color:#1e293b; margin-bottom:8px; }
+  .subtitle { font-size:1.05rem; color:#64748b; margin-bottom:28px; line-height:1.7; }
+  .features { display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-bottom:32px; }
+  .tag { padding:6px 16px; border-radius:20px; font-size:0.9rem; }
+  .tag1 { background:#eff6ff; color:#2563eb; }
+  .tag2 { background:#f0fdf4; color:#16a34a; }
+  .tag3 { background:#fef3c7; color:#92400e; }
+  .tag4 { background:#fce7f3; color:#db2777; }
+  .cta { display:flex; gap:12px; justify-content:center; flex-wrap:wrap; }
+  .btn { padding:12px 28px; border-radius:8px; font-size:1rem; font-weight:600; text-decoration:none; cursor:pointer; border:none; }
+  .btn-primary { background:#2563eb; color:#fff; }
+  .btn-primary:hover { background:#1d4ed8; }
+  .btn-outline { border:2px solid #2563eb; color:#2563eb; background:transparent; }
+  .btn-outline:hover { background:#eff6ff; }
+  .footer { margin-top:36px; font-size:0.82rem; color:#94a3b8; }
+</style>
+</head>
+<body>
+<div class="hero">
+  <h1>🎯 IELTS 7+ 备考平台</h1>
+  <p class="subtitle">
+    听说读写 + 词汇语法 一站式备考<br />
+    模拟真题 · 评分标准 · 策略技巧 · 错题本 · 进度追踪
+  </p>
+  <div class="features">
+    <span class="tag tag1">🎧 听力</span>
+    <span class="tag tag2">📖 阅读</span>
+    <span class="tag tag3">✍️ 写作</span>
+    <span class="tag tag4">💬 口语</span>
+    <span class="tag tag1">📚 词汇语法</span>
+  </div>
+  <div class="cta">
+    <a href="/app/" class="btn btn-primary">🚀 开始学习</a>
+  </div>
+  <p class="footer">免费开放 · 目标 Band 7.0+ · 持续更新中</p>
+</div>
+
+<script>
+  // Redirect to app
+  document.querySelector('.btn').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.location.href = '/app/';
+  });
+  // If user lands on landing page and there is no /app path, load from current dir
+  if (window.location.pathname === '/') {
+    // Show the landing page; user clicks to enter
+  }
+</script>
+</body>
+</html>
